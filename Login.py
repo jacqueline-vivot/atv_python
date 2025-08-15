@@ -1,10 +1,10 @@
 #login
-#login = input("Digite o login: ")
-#senha = int(input("Digite a senha: "))
-#if login == "admin" and senha == 1234:
-#    print("Acesso permitido!")
-#else: 
-#    print("Acesso negado!")
+login = input("Digite o login: ")
+senha = int(input("Digite a senha: "))
+if login == "admin" and senha == 1234:
+    print("Acesso permitido!")
+else: 
+    print("Acesso negado!")
 
 #3 tentativas
 tentativas = 0
@@ -33,4 +33,5 @@ while tentativas <= max_attempts:
             print("Número máximo de tentativas atingido. Acesso bloqueado.")
             break
         else:
+
             print("Tente novamente.")
